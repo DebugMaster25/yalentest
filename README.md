@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Welcome to my test project for Yalent company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How can I edit this code?
 
-## Available Scripts
+There are several ways of editing your application.
 
-In the project directory, you can run:
+**Use your preferred IDE**
 
-### `npm start`
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps:
 
-### `npm test`
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/DebugMaster25/yalentest
+# Step 2: Navigate to the project directory.
+cd yalent_test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Step 3: Install the necessary dependencies.
+npm i
 
-### `npm run build`
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Edit a file directly in GitHub**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Use GitHub Codespaces**
 
-### `npm run eject`
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## What technologies are used for this project?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is built with:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+- GitHub Copilot as AI tool
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Sorry
 
-## Learn More
+I wanted to acknowledge the current state of the interface — it's quite raw. My main focus was on delivering results as quickly as possible, so I prioritized functionality and speed over polish.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+That said, I want to clarify that this isn't representative of the quality I bring to production-level, customer-facing projects. When working on real client applications, I take great care to ensure the user interface is clean, thoughtful, and fully aligned with user experience best practices.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your understanding.
